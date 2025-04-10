@@ -1,0 +1,48 @@
+
+body {
+    margin: auto;
+    width: 500px;
+    background-color: grey;
+}
+.box{
+    background-color: white;
+    border: 10px solid #56e6e6;
+    width: 500px;
+
+}
+caption{
+    color: white;
+    background-color: #ec4502;
+    border : 1px solid black;
+    margin : 5px;
+    text-align: center;
+}
+.cell1{
+    color : blue;
+    text-align: right;
+    margin : 5px auto;
+    vertical-align: top;
+}
+.cell2{
+    color : orange;
+}
+table{
+    width: 100%;
+}
+.button{
+   text-align: center;
+    margin: 10px;
+}
+
+.caption1{
+    background-color: lightskyblue;
+    color: blue;
+    margin : 5px;
+}
+.table1{
+   border : 5px solid white;
+    background-color: #fafa97;
+}
+.cell3{
+    color : blue;
+}

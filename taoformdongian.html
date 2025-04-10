@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Tạo form đơn giản</title>
+</head>
+<link rel="stylesheet" href="test.css">
+<body>
+<form action="tao-form-don-gian.html" method="POST">
+  <div class="box">
+  <table>
+<caption>Sở thích của bạn</caption>
+    <tr>
+      <td class="cell1">Họ và tên</td>
+        <td><input type="text" name="yourname"></td>
+    </tr>
+    <tr>
+      <td class="cell1">Email</td>
+       <td> <input type="email" name="email"></td>
+    </tr>
+    <tr>
+      <td class="cell1">Sở thích</td>
+      <td class="cell2">
+        <input type="checkbox" name="hobby" value="Thể thao">Thể thao
+        <input type="checkbox" name="hobby" value="Âm nhạc">Âm nhạc
+        <input type="checkbox" name="hobby" value="Đọc sách">Đọc sách<br>
+        <input type="checkbox" name="hobby" value="Lướt web">Lướt web
+        <input type="checkbox" name="hobby" value="Chơi game">Chơi game
+        <input type="checkbox" name="hobby"  value="Điện ảnh">Điện ảnh<br>
+        <input type="checkbox" name="hobby" value="Du lịch">Du lịch
+      </td>
+    </tr>
+      </table>
+    <div class="button">
+        <input type="submit" name="submit" value="Gửi thông tin">
+        <input type="reset" name="reset" value="Nhập lại">
+    </div>
+  </div>
+  <div>
+<table class="table1">
+  <tr>
+    <th class="caption1" colspan="2">Đăng ký học viên</th></tr>
+  <tr>
+  <td class="cell3">Họ và tên</td>
+  <td><input type="text" name="yourname"></td>
+  </tr>
+  <tr>
+    <td class="cell3">Ngày sinh</td>
+    <td><input type="date" name="birthday"></td>
+  </tr>
+  <tr>
+    <td class="cell3">Giới tính</td>
+    <td><input type="radio" name="gender" value="Nam">Nam
+        <input type="radio" name="gender" value="Nữ">Nữ</td>
+  </tr>
+  <tr>
+    <td class="cell3">Địa chỉ</td>
+    <td><input type="text" name="address"></td>
+  </tr>
+  <tr>
+    <td class="cell3">Lớp</td>
+      <td><select name="class">
+        <option value="1">Lớp 1</option>
+        <option value="2">Lớp 2</option>
+        <option value="3">Lớp 3</option>
+        <option value="4">Lớp 4</option>
+        <option value="5">Lớp 5</option>
+      </select>
+    </td>
+  </tr>
+  <tr>
+    <td class="cell3">Email</td>
+    <td><input type="email" name="email"></td>
+  </tr>
+  <tr>
+    <td class="cell3">Điện thoại</td>
+    <td><input type="tel" name="phone"></td>
+  </tr>
+  <tr>
+  <td colspan="2">
+    <div class="button">
+    <input type="submit" value="Đăng ký">
+    <input type="reset" value="Nhập lại">
+  </div></td>
+   </table>
+  </div>
+
+
+</form>
+</body>
+</html>
